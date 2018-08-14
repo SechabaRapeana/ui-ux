@@ -1,0 +1,63 @@
+page-home {
+    .img{
+        margin-left: 100px;
+        margin-top:90px;
+    }
+
+    .bg{
+    //    background-color: #494459;
+        background: linear-gradient(to bottom, #b0adb4,#28252b)
+    
+    }
+
+    .container{
+        margin-top: 100px;
+        // opacity: 0.01;
+        padding:1px;
+    }
+    .item1{
+        background-color: #646068;
+        margin-left:5px;
+        margin-right:650px;
+    }
+    .item2{
+        background-color: #5b585e;
+        margin-left:5px;
+        margin-right:650px;
+    }
+
+    .btn{
+        margin-left:50px;
+        margin-right:50px;
+        padding:1px;
+        color: white;
+    }
+
+    .btnH{
+        background-color: #5b585e;
+        color:whitesmoke
+    }
+    p{
+        color: white;
+        margin-left:50px;
+        margin-top: 25px;
+        padding:1px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    .btnSign{
+        margin-left:230px;
+        margin-top:-50px;
+
+
+    }
+    ion-label{
+        color: white;
+        margin-left:50px;
+        margin-right:50px;
+    }
+    ion-item{
+        margin-left:50px;
+        margin-right:50px;
+    }
+}
