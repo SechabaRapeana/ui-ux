@@ -1,40 +1,46 @@
 page-home {
-    .img{
-        margin-left: 100px;
+    img{
+     
         margin-top:90px;
+        float: center;
+        border-radius: 100%;
     }
 
     .bg{
-    //    background-color: #494459;
-        background: linear-gradient(to bottom, #b0adb4,#28252b)
-    
+        background: linear-gradient(to bottom, #8d9094,#2e2f31);
+        align-items: center;
+        text-align: center;
     }
 
     .container{
         margin-top: 100px;
-        // opacity: 0.01;
-        padding:1px;
     }
-    .item1{
-        background-color: #646068;
-        margin-left:5px;
-        margin-right:650px;
-    }
-    .item2{
-        background-color: #5b585e;
-        margin-left:5px;
-        margin-right:650px;
+     .item{
+        background-color: transparent;
     }
 
+
+  .btnDiv{
+    margin-left:50px;
+    margin-right:50px;
+    padding:1px;
+  }
+
     .btn{
-        margin-left:50px;
-        margin-right:50px;
-        padding:1px;
+       font-size: 15px;
         color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+    }
+
+    .btnSignUp{
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
     }
 
     .btnH{
-        background-color: #5b585e;
+        background-color: transparent;
         color:whitesmoke
     }
     p{
@@ -44,20 +50,5 @@ page-home {
         padding:1px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     }
-
-    .btnSign{
-        margin-left:230px;
-        margin-top:-50px;
-
-
-    }
-    ion-label{
-        color: white;
-        margin-left:50px;
-        margin-right:50px;
-    }
-    ion-item{
-        margin-left:50px;
-        margin-right:50px;
-    }
+  
 }
